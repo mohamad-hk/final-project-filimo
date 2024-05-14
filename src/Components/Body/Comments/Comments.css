@@ -1,0 +1,112 @@
+.swiper_comments {
+  width: 80%;
+  height: 100%;
+}
+.swiper-slide {
+  justify-content: normal !important;
+}
+
+.swiper-button-prev::after {
+  content: "\F285" !important;
+  color: white;
+  font-size: 15px;
+  font-family: "bootstrap-icons";
+}
+.swiper-button-next::after {
+  content: "\F284" !important;
+  color: white;
+  font-size: 15px;
+  font-family: "bootstrap-icons";
+}
+.swiper-slide_comments {
+  border: 1px solid #33353d;
+  text-align: center;
+  font-size: 18px;
+  background: #1a1a1a;
+
+  height: 200px;
+
+  & h5 {
+    font-size: 14px;
+  }
+  & p {
+    font-size: 11px;
+    text-align: justify;
+    height: 80px;
+  }
+}
+#first_icon {
+  width: 20px;
+  height: 20px;
+}
+#second_icon {
+  width: 40px;
+  height: 40px;
+}
+#Comments {
+  background-color: #151515;
+
+  .swiper-button-prev {
+    position: absolute;
+    right: 90%;
+    top: 10%;
+    background-color: rgba(6, 6, 6, 0.6) !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+  }
+
+  .swiper-button-next {
+    position: absolute;
+    right: 95%;
+    top: 10%;
+    background-color: rgba(6, 6, 6, 0.6) !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+  }
+}
+
+#Comment_heading {
+  right: 12%;
+  top: 18%;
+}
+@media all and (min-width: 0px) and (max-width: 575px) {
+  .swiper-button-prev {
+    position: absolute;
+    right: 75% !important;
+  }
+
+  .swiper-button-next {
+    position: absolute;
+    right: 90% !important;
+  }
+}
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .swiper-button-prev {
+    position: absolute;
+    right: 80% !important;
+  }
+
+  .swiper-button-next {
+    position: absolute;
+    right: 90% !important;
+  }
+}
+@media all and (min-width: 769px) and (max-width: 991px) {
+  .swiper-button-prev {
+    position: absolute;
+    right: 80% !important;
+  }
+
+  .swiper-button-next {
+    position: absolute;
+    right: 90% !important;
+  }
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .swiper_comments {
+    width: 95%;
+    height: 100%;
+  }
+}

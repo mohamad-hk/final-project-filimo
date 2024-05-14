@@ -1,0 +1,11 @@
+.active {
+  opacity: 1;
+  transition: all 0.5s;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+.swiper_slide_Most_Popular:hover {
+  opacity: 1;
+  transition: all 1s;
+  cursor: pointer;
+}

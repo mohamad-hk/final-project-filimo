@@ -1,0 +1,17 @@
+#Online_Cinema {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#Online_Cinema_Content {
+  overflow-y: scroll;
+  height: 70vh;
+}
+#cover_item {
+  width: 165px;
+  height: 220px;
+}
+.box {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid #33353d;
+}

@@ -1,0 +1,10 @@
+#Content_Child_Filimo {
+  width: 100%;
+  & h1 {
+    font-size: 20px;
+  }
+  & p {
+    line-height: 20px;
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,79 @@
+.swiper_Most_Popular {
+  width: 75%;
+  height: 100%;
+}
+
+.swiper_slide_Most_Popular {
+  text-align: center;
+  font-size: 18px;
+  background: #151515;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 280px;
+  opacity: 0.65;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#Most_Popular {
+  background-color: #151515;
+}
+#buttons_categories {
+  background-color: #151515;
+  border: 1px solid #ffffff1f;
+  width: 160px;
+  height: 30px;
+  & button {
+    color: white;
+    font-size: 14px;
+  }
+}
+.clicked {
+  background-color: #ffffff1f;
+}
+@media all and (min-width: 0px) and (max-width: 575px) {
+  .swiper_Most_Popular {
+    width: 100%;
+    height: 100%;
+    overflow-x: scroll;
+  }
+  #Heading_Most_Popular {
+    width: 100%;
+  }
+}
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .swiper_Most_Popular {
+    width: 100%;
+    height: 100%;
+    overflow-x: scroll;
+  }
+  #Heading_Most_Popular {
+    width: 100%;
+  }
+}
+@media all and (min-width: 769px) and (max-width: 991px) {
+  #Heading_Most_Popular {
+    width: 75%;
+  }
+}
+@media all and (min-width: 991px) and (max-width: 1199px) {
+  #Heading_Most_Popular {
+    width: 75%;
+  }
+}
+@media all and (min-width: 1200px) and (max-width: 1399px) {
+  #Heading_Most_Popular {
+    width: 75%;
+  }
+}
+@media all and (min-width: 1400px)  {
+  #Heading_Most_Popular {
+    width: 75%;
+  }
+}

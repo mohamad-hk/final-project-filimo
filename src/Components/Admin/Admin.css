@@ -1,0 +1,65 @@
+.Admin {
+  background-color: #f8f8f8;
+  height: 100vh;
+}
+.Menu_Admin {
+  min-height: 100vh;
+  background-color: #07306d;
+  & ul {
+    & li {
+      color: #ffff84;
+    }
+  }
+}
+#card_online_cinema {
+  background-color: #35131b;
+}
+
+#content_online_cinema {
+  & p {
+    font-size: 13px;
+  }
+  & span {
+    font-size: 12px;
+    background-color: #0e1724;
+    width: 60px;
+  }
+}
+#buttons_online_cinema {
+  bottom: 0;
+  left: 5%;
+  & button {
+    width: 70px;
+  }
+}
+#add_icon {
+  position: absolute;
+  left: 15%;
+  top: 25%;
+  font-size: 10rem;
+  cursor: pointer;
+}
+#add_icon_online_cinema {
+  position: absolute;
+  left: 25%;
+  top: 15%;
+  font-size: 10rem;
+  cursor: pointer;
+}
+.image_custom {
+  height: 220px;
+  width: 165px;
+}
+.active_menu {
+  background-color: #0072a2;
+  color: #fff;
+}
+@media all and (min-width: 0px) and (max-width: 575px) {
+  .Menu_Admin {
+    min-height: auto;
+  }
+  #add_online_cinema {
+    min-height: 35vh;
+    margin-top: 5px;
+  }
+}

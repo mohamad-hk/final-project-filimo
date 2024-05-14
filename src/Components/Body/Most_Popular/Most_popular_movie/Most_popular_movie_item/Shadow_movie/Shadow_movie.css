@@ -1,0 +1,7 @@
+#Shadow_movie {
+  position: absolute;
+  top: 0%;
+  background: linear-gradient(90deg, #151515 2%, rgba(21, 21, 21, 0) 10%);
+  height: 100%;
+  width: 100%;
+}

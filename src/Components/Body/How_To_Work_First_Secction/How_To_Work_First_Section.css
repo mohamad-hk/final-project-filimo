@@ -1,0 +1,15 @@
+#section1 {
+  background-color: #151515;
+  & button {
+    background-color: #1cb561;
+    font-size: 12px;
+  }
+  .button_buy {
+    background-color: #1cb561;
+    color: white;
+  }
+  .button_buy:hover {
+    background-color: #17924e;
+    transition: all 0.5s;
+  }
+}

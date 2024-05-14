@@ -1,0 +1,10 @@
+#Buttons_Child_Filimo {
+  & button {
+    background-color: #ededed;
+    font-size: 12px;
+  }
+  & button:hover {
+    background-color: #d6d6d6;
+    transition: all 0.5s;
+  }
+}

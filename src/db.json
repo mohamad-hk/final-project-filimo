@@ -1,0 +1,773 @@
+{
+  "header": [
+    { "id": "1", "logo": "", "content": "فیلیموتور" },
+    { "id": "2", "logo": "", "content": "فیلیمو مدرسه" },
+    { "id": "3", "logo": "", "content": "جستجو" }
+  ],
+
+  "Customer": [
+    { "id": "1", "content": "خرید اشتراک" },
+    { "id": "2", "content": "ورود" }
+  ],
+  "sliders": [
+    {
+      "id": "1",
+      "image": "https://static.cdn.asset.filimo.com/ct/9sv2o_desktop_1_v3.jpeg?width=960&quality=85&secret=EHk2YkirQO-k1uxI8FOuDw"
+    },
+    {
+      "id": "2",
+      "image": "https://static.cdn.asset.filimo.com/ct/sy6q1_desktop_1_v1.jpeg?width=1920&quality=85&secret=LfntnzJEf8dsXPvTe9VCgw"
+    },
+    {
+      "id": "3",
+      "image": "https://static.cdn.asset.filimo.com/ct/kbzf9_desktop_1_v1.jpeg?width=1920&quality=85&secret=XkCuh3Rd1zVdmRz3ojou7w"
+    },
+    {
+      "id": "4",
+      "image": "https://static.cdn.asset.filimo.com/ct/3dfqv_desktop_1_v1.jpeg?width=1920&quality=85&secret=iqEte88fiI7rzBQLBcFBKg"
+    },
+    {
+      "id": "5",
+      "image": "https://static.cdn.asset.filimo.com/ct/6bgnf_desktop_1_v1.jpeg?width=1920&quality=85&secret=DFB5QXDg77QH_HNqX-8fMg"
+    },
+    {
+      "id": "6",
+      "image": "https://static.cdn.asset.filimo.com/ct/0xyc9_desktop_1_v2.jpeg?width=1920&quality=85&secret=FTvZWMCTcUGqCeS3b90Ozg"
+    },
+    {
+      "id": "7",
+      "image": "https://static.cdn.asset.filimo.com/ct/146491_desktop_1_v1.jpeg?width=1920&quality=85&secret=0amWTdHPBJWFlyeJ0dg-4Q"
+    },
+    {
+      "id": "8",
+      "image": "https://static.cdn.asset.filimo.com/ct/146490_desktop_1_v1.jpeg?width=1920&quality=85&secret=TV-oTq-Vwrk8DiZJHz9oFg"
+    },
+    {
+      "id": "9",
+      "image": "https://static.cdn.asset.filimo.com/ct/n81cs_desktop_1_v1.jpeg?width=1920&quality=85&secret=qZkA1J4i7hPpZ81qhCRffQ"
+    },
+    {
+      "id": "10",
+      "image": "https://static.cdn.asset.filimo.com/ct/6tdlb_desktop_1_v5.jpeg?width=1920&quality=85&secret=t8RGkFr6TjKyX-BcNmqFFA"
+    },
+    {
+      "id": "11",
+      "image": "https://static.cdn.asset.filimo.com/ct/8u9fb_desktop_1_v1.jpeg?width=1920&quality=85&secret=AyC0DGCpL7G9GZlqRViRzA"
+    }
+  ],
+  "sliders_section1": [
+    {
+      "id": "1",
+      "content": "  با فیلیمو بی وقفه فیلم ببین  "
+    }
+  ],
+  "sliders_section2": [
+    {
+      "id": "1",
+      "content": "   کنترل همیشه در دست توست!      "
+    }
+  ],
+  "sliders_section3": [
+    {
+      "id": "1",
+      "content": " 90 هزار ایپزود فیلم وسریال برای تماشا داری      "
+    },
+    {
+      "id": "2",
+      "content": " می تونی دانلود کنی بعد بدون اینترنت تماشا کنی      "
+    },
+    {
+      "id": "3",
+      "content": "می تونی یک عضو، مخصوص تماشای کودک بسازی"
+    }
+  ],
+  "Most_popular_series": [
+    {
+      "id": "0",
+      "image": "https://static.cdn.asset.filimo.com/flmt/mov_146564_156632.jpg?width=165&quality=85&secret=fPiAr97ZRLQtfxA69jtGJg",
+      "title": "قطب شمال",
+      "director": "امین محمودی یکتا",
+      "genres": [
+        { "id": 1, "genre": "درام" },
+        { "id": 2, "genre": "عاشقانه" }
+      ],
+      "description": "مرگ، قصه همایون و دیوارهای زندان را خاتمه می دهد؛ اما نوبت به بازگشت می رسد؛ بازگشتی سراسر خشم و نفرت…      ",
+      "parts": [
+        {
+          "id": "1",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_146003_156081.jpg?width=220&quality=85&secret=7p-H9xydf7SVZvMeAZ8f_g",
+          "title": "فصل 1 قسمت 1"
+        },
+        {
+          "id": "2",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_146564_156631.jpg?width=220&quality=85&secret=OGpWOb7OnkZEDRnDDtvZ8Q",
+          "title": "فصل1 قسمت 2"
+        }
+      ],
+      "logo": "https://static.cdn.asset.filimo.com/flmt/mov_logo_146002_179.png?width=400&quality=85&secret=fE8w1UsRDDqcH6fVNRvC4g",
+      "cover": "https://static.cdn.asset.filimo.com/flmt/mov_cvr_filimo_hor_146564_890.jpg?width=1920&quality=80&secret=UtaV78MbBR_UqQwTIzNbvQ"
+    },
+    {
+      "id": "1",
+      "image": "https://static.cdn.asset.filimo.com/flmt/mov_146561_156619.jpg?width=165&quality=85&secret=B0WkwHXc5OKqvSYzYKK6QQ",
+      "title": "صداتو",
+      "director": "حامد جواد زاده",
+      "genres": [
+        { "id": 1, "genre": "ریلیتی شو" },
+        { "id": 2, "genre": "گیم شو" }
+      ],
+      "description": "«صداتو»، یک مسابقه موسیقایی پرمعما و جذاب است که محسن کیایی با چهره ای متفاوت اجرای آن را به عهده دارد. چهره های آشنایی مانند شبنم مقدمی، محمد بحرانی، محسن شریفیان، و امیرمهدی ژوله قرار است شرکت کنندگان را در این مسابقه سرگرمی راهنمایی کنند. فضای معمایی و موزیکال برنامه، اتفاقات هیجان انگیز و بی سابقه ای را برای تماشاگران و افراد حاضر در مسابقه رقم می زند و تنوع موسیقایی ایرانی و شرقی «صداتو»، مخاطبان را با طرح خاص و رنگ و لهجه‌ای تازه‌ مواجه می کند.      ",
+      "parts": [
+        {
+          "id": "1",
+          "status": "open",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_134637_57892.jpg?width=220&quality=85&secret=ElFYnUXBtrQ8tnUaXEEBsQ",
+          "title": ": ایران دخت فصل 1 قسمت 1"
+        },
+        {
+          "id": "2",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_134877_58009.jpg?width=220&quality=85&secret=DTICd9tzJEG8XQuWLASoFA",
+          "title": "کاک وهب:فصل 1 قسمت 2"
+        },
+        {
+          "id": "3",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_135002_58430.jpg?width=220&quality=85&secret=P6tkL-51vYpcu4eyktmN3A",
+          "title": " سلام سینما:فصل 1 قسمت 3"
+        },
+        {
+          "id": "4",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_135237_58998.jpg?width=220&quality=85&secret=a94QvTPcYhn8lf-wG9t2cQ",
+          "title": "رفاقت:فصل 1 قسمت 4"
+        },
+        {
+          "id": "5",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_135423_59160.jpg?width=220&quality=85&secret=TPwqNlgXg1uJNLDQ-E9eDQ",
+          "title": "بچه های ایران:فصل 1 قسمت 5"
+        },
+        {
+          "id": "6",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_135657_59363.jpg?width=220&quality=85&secret=pe-X0EGh9dcVZw8uCp3uBQ",
+          "title": "میم مثل مادر:فصل 1 قسمت 6"
+        },
+        {
+          "id": "7",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_135832_59685.jpg?width=220&quality=85&secret=_JOCKNV4Wmi-ArzoMXpB6A",
+          "title": "طقلی به نام شادی:فصل 1 قسمت 7"
+        },
+        {
+          "id": "8",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_135981_62356.jpg?width=220&quality=85&secret=HLOrh-F8WzZuwzcHWZrgpA",
+          "title": "برای آینده:فصل 1 قسمت 8"
+        }
+      ],
+      "logo": "https://static.cdn.asset.filimo.com/flmt/mov_logo_134635_963.png?width=400&quality=85&secret=O9DSxuBguojV_Nk2Y8nywQ",
+      "cover": "https://static.cdn.asset.filimo.com/flmt/mov_cvr_filimo_hor_146561_614.jpg?width=1920&quality=80&secret=V_o6vlNC0irdjp1_DSnKeA"
+    },
+    {
+      "id": "2",
+      "image": "https://static.cdn.asset.filimo.com/flmt/mov_146560_156271.jpg?width=165&quality=85&secret=wFK-fiZJgAMZUOB_vlg6aQ",
+      "title": "اسکار",
+      "director": "مهران مدیری ",
+      "genres": [
+        { "id": 1, "genre": "ریلیتی شو" },
+        { "id": 2, "genre": "گیم شو" }
+      ],
+      "description": "اسکار، محصول ویستا مدیا یک رئالیتی شوی چالش محور است که مهمانان آن همگی از بازیگران و افراد مشهور هستند. در این رئالیتی شو، مهران مدیری، به‌عنوان کارگردان هنری و مجری اصلی برنامه و نیما شعبان نژاد به‌عنوان دستیار مجری اصلی حضور خواهند داشت. در این برنامه، هر فرد تلاش میکند چالش خود را به خلاقانه‌ترین روش ممکن انجام دهد و رقابت بر سر تندیس اسکار خواهد بود. هر مهمان بر اساس نحوه انجام چالش خود، از مجری اصلی برنامه امتیاز دریافت می‌کند و براساس امتیازهای دریافتی، برنده تندیس اسکار مشخص می‌شود. همچنین مهمانی که کمترین امتیاز را دریافت کند، یک مسئولیت اجتماعی برعهده خواهد گرفت.      ",
+      "parts": [
+        {
+          "id": "1",
+          "status": "open",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_142033_72421.jpg?width=220&quality=85&secret=qJ5TcZ8YIuLdXpcKZuGaKA",
+          "title": "فصل1 قسمت1"
+        },
+        {
+          "id": "2",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_144017_72682.jpg?width=220&quality=85&secret=hUZ2xvBsI_3Bg_5a8Suv3A",
+          "title": "فصل1 2قسمت"
+        },
+        {
+          "id": "3",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_144159_106140.jpg?width=220&quality=85&secret=K7x9mX-PXhbp3boWCn_Csg",
+          "title": "فصل1 3قسمت"
+        },
+        {
+          "id": "4",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_144285_150730.jpg?width=220&quality=85&secret=t-TsevBdJv8AxH-T3houoA",
+          "title": "فصل1 4قسمت"
+        }
+      ],
+      "logo": "https://static.cdn.asset.filimo.com/flmt/mov_logo_142032_381.png?width=400&quality=85&secret=rF6-vLzIh5uZAlpgNKSqOQ",
+      "cover": "https://static.cdn.asset.filimo.com/flmt/mov_cvr_filimo_hor_146560_591.jpg?width=1920&quality=80&secret=USzkFUK0npXxtJvmEd6yag"
+    },
+    {
+      "id": "3",
+      "image": "https://static.cdn.asset.filimo.com/flmt/mov_146023_155520.jpg?width=165&quality=85&secret=1uLHimMWMoHrt1cgKWNahQ",
+      "title": "گناه فرشته",
+      "director": "حامد عنقا",
+      "genres": [
+        { "id": 1, "genre": "درام" },
+        { "id": 2, "genre": "خانوادگی" }
+      ],
+      "description": "وقتی به سرنوشت نهایی نگاه می‌کنی، فایده‌ای در این همه جنجال نمی‌بینی.      ",
+      "parts": [
+        {
+          "id": "1",
+          "status": "open",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_141217_70888.jpg?width=220&quality=85&secret=9Ivk16uBlt7bxji0WaqxHw",
+          "title": "فصل1 قسمت 1"
+        },
+        {
+          "id": "2",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_142984_72075.jpg?width=220&quality=85&secret=-oo_VJwokRnWktOtIsCWHg",
+          "title": "فصل1 قسمت 2"
+        },
+        {
+          "id": "3",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_143710_72423.jpg?width=220&quality=85&secret=tw9IJqMcVriIjBM2XGl6iw",
+          "title": "فصل1 قسمت 3"
+        },
+        {
+          "id": "4",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_143887_72422.jpg?width=220&quality=85&secret=n5FsTe-FdyxcdyQicuIbxw",
+          "title": "فصل1 قسمت 4"
+        },
+        {
+          "id": "5",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_144020_72678.jpg?width=220&quality=85&secret=puROt8ViiG2qt7K7hU3Hgw",
+          "title": "فصل1 قسمت 5"
+        },
+        {
+          "id": "6",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_144162_105952.jpg?width=220&quality=85&secret=DDwzoGgJj4IrduZC4v6MPw",
+          "title": "فصل1 قسمت 6"
+        },
+        {
+          "id": "7",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_144289_150726.jpg?width=220&quality=85&secret=Sl_Ua2m2V_d2CNOnX7I4Jg",
+          "title": "فصل1 قسمت 7"
+        },
+        {
+          "id": "8",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_144416_151500.jpg?width=220&quality=85&secret=QKU1tVTUmcveoC5C3XuXRg",
+          "title": "فصل1 قسمت 8"
+        }
+      ],
+      "logo": "https://static.cdn.asset.filimo.com/flmt/mov_logo_141218_814.png?width=400&quality=85&secret=_KlqyGGLszs_4kQSVkAXqg",
+      "cover": "https://static.cdn.asset.filimo.com/flmt/mov_cvr_filimo_hor_146023_956.jpg?width=1920&quality=80&secret=QkZxRs8M30oHDChpC9bRWQ"
+    },
+    {
+      "id": "4",
+      "image": "https://static.cdn.asset.filimo.com/flmt/mov_146500_156169.jpg?width=165&quality=85&secret=3pN8x3CmwZow_EPZL3rXcg",
+      "title": "شب های مافیا:زودیاک ",
+      "director": "محمد رضا رضائیان",
+      "genres": [
+        { "id": 1, "genre": "خانوادگی" },
+        { "id": 2, "genre": "ریلیتی شو" }
+      ],
+      "description": "«شب های مافیا»، گیم شوی جذابی است که در آن یک قاتل سریالی به نام «زودیاک»، شهروندان و مافیای سیسیل را هدف قرار می دهد. در این برنامه محمد بحرانی نقش گرداننده بازی را بر عهده دارد.      ",
+      "parts": [
+        {
+          "id": "1",
+          "status": "open",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_137339_61705.jpg?width=220&quality=85&secret=XrzarFR0AQ8Af5r_5AZ5lA",
+          "title": "آموزش شب های مافیا: زودیاک"
+        },
+        {
+          "id": "2",
+          "status": "open",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_137105_61943.jpg?width=220&quality=85&secret=4mXfskQHh02pUoNCwLlnOQ",
+          "title": "فصل1 قسمت 1"
+        },
+        {
+          "id": "3",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_137502_62093.jpg?width=220&quality=85&secret=3ou1oj7kgmJMnfGfnOnEfA",
+          "title": "فصل1 قسمت 2"
+        },
+        {
+          "id": "4",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_137503_62992.jpg?width=220&quality=85&secret=8a0BQX9_zQ8LWbiyNQbA8w",
+          "title": "فصل1 قسمت 3"
+        },
+        {
+          "id": "5",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_138498_63954.jpg?width=220&quality=85&secret=p4w82CBL-OvYSLNdvglZFA",
+          "title": "فصل1 قسمت 4"
+        },
+        {
+          "id": "6",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_138750_64406.jpg?width=220&quality=85&secret=1pMMWI-EmvPmEhRlcdpFbA",
+          "title": "فصل1 قسمت 5"
+        },
+        {
+          "id": "7",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_138953_64779.jpg?width=220&quality=85&secret=BmvWsgf3pweYzL41yMlhCQ",
+          "title": "فصل1 قسمت 6"
+        },
+        {
+          "id": "8",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_139168_64857.jpg?width=220&quality=85&secret=HcBjoBiVHprtXek28LELrQ",
+          "title": "فصل1 قسمت 7"
+        }
+      ],
+      "logo": "https://static.cdn.asset.filimo.com/flmt/mov_logo_137093_589.png?width=400&quality=85&secret=n9AW7B2hhMceD8DJwgLBHA",
+      "cover": "https://static.cdn.asset.filimo.com/flmt/mov_cvr_filimo_hor_146500_173.jpg?width=1920&quality=80&secret=YWnsLJAm8KuUesIBpC4Oog"
+    },
+    {
+      "id": "5",
+      "image": "https://static.cdn.asset.filimo.com/flmt/mov_145331_155888.jpg?width=165&quality=85&secret=HotMcS4sEzjuqA3OnTNwwg",
+      "title": "پسر دلفینی",
+      "director": "رضا فصاحت",
+      "genres": [
+        { "id": 1, "genre": "انیمیشن" },
+        { "id": 2, "genre": "ماجراجویی" }
+      ],
+      "description": "شامی با شعبده سر ماهی‌ها را گرم کرده و لاک پشت که به بی‌توجهی و بی نظمی ماهی ها معترض است با مرکب آلوده و همراه بقیه مشغول خوش گذرانی می شود. حالا پسر دلفینی باید لاک پشت و ماهی های دیگر را از چنگ شامی نجات دهد.      ",
+      "parts": [
+        {
+          "id": "1",
+          "status": "open",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_145274_153192.jpg?width=220&quality=85&secret=hJxuqHrEcNzt3lqvxNU4Xg",
+          "title": "فصل 1 قسمت 1"
+        },
+        {
+          "id": "2",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_145326_153354.jpg?width=220&quality=85&secret=Q4prebu5Q0s2bacd0PusbQ",
+          "title": "فصل1 قسمت 2"
+        },
+        {
+          "id": "3",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_145327_153356.jpg?width=220&quality=85&secret=8vHNY8ftwYqH7KjmMnaSGg",
+          "title": "فصل1 قسمت 3"
+        },
+        {
+          "id": "4",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_145328_153358.jpg?width=220&quality=85&secret=zeBQ2yUrxmfTheO_IfbDLg",
+          "title": "فصل1 قسمت 4"
+        },
+        {
+          "id": "5",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_145329_154680.jpg?width=220&quality=85&secret=rl6xR7EIfWUV7MWyT9Cl1w",
+          "title": "فصل1 قسمت 5"
+        },
+        {
+          "id": "6",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_145330_155525.jpg?width=220&quality=85&secret=JkK_WKYHmW7RG-5H0MlBZQ",
+          "title": "فصل1 قسمت 6"
+        },
+        {
+          "id": "7",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_145331_155889.jpg?width=220&quality=85&secret=P-1XewhJ60ofI8J74iUyHg",
+          "title": "فصل1 قسمت 7"
+        },
+        {
+          "id": "8",
+          "status": "locked",
+          "image": "https://static.cdn.asset.filimo.com/flmt/mov_145332_156459.jpg?width=220&quality=85&secret=0ORdUdm3S4vGTxBLYFll7g",
+          "title": "فصل1 قسمت 8"
+        }
+      ],
+      "logo": "https://static.cdn.asset.filimo.com/flmt/mov_logo_145135_980.png?width=400&quality=85&secret=fVJ6iCuhyJk2Wsj-jNRmmA",
+      "cover": "https://static.cdn.asset.filimo.com/flmt/mov_cvr_filimo_hor_145331_799.jpg?width=1920&quality=80&secret=GO5SHjcJvC4z1oYCgvogsQ"
+    }
+  ],
+  "Most_popular_movies": [
+    {
+      "id": "1",
+      "image": "https://static.cdn.asset.filimo.com/flmt/mov_145103_152533.jpg?width=165&quality=85&secret=G95_wAj3uUVsDAveZMBp3w",
+      "title": "فسیل",
+      "director": "کریم امینی",
+      "imdb_score": "5.4",
+      "genres": [
+        { "id": "1", "genre": "کمدی" },
+        { "id": "2", "genre": "خانوادگی" }
+      ],
+      "description": "فسیل داستان سه دوست را در پیش از انقلاب ایران روایت می‌کند که عضو یک گروه موسیقی‌ اند و برای کسب شهرت تلاش می‌کنند.      ",
+      "more_data": {
+        "age": "بالای 15 سال",
+        "time": "یک ساعت و 50 دقیقه",
+        "country_producer": "محصول ایران",
+        "year": "1399",
+        "quality": "کیفیت HD"
+      },
+      "logo": "https://static.cdn.asset.filimo.com/flmt/mov_logo_145103_558.png?width=400&quality=85&secret=u6x-SbXrQGbat02Zy2QAXw",
+      "cover": "https://static.cdn.asset.filimo.com/flmt/mov_cvr_filimo_hor_145103_992.jpg?width=1920&quality=80&secret=KVmjn2BTiEfvuGz5-bIO5w"
+    },
+    {
+      "id": "2",
+      "image": "https://static.cdn.asset.filimo.com/flmt/mov_144197_152428.jpg?width=165&quality=85&secret=_h06YbaofoWO6ivilAXshQ",
+      "title": "هولیا",
+      "director": "مرتضی آتش زمزم",
+      "imdb_score": "2.3",
+      "genres": [
+        { "id": "1", "genre": "کمدی" },
+        { "id": "2", "genre": "خانوادگی" }
+      ],
+      "description": "در ایران پدر و مادرها به بچه هاشون اجازه هر کاری را نمی دهند، ولی همیشه نوه داستانش فرق داره!      ",
+      "more_data": {
+        "age": "بالای 15 سال",
+        "time": "یک ساعت و 16 دقیقه",
+        "country_producer": "محصول ایران",
+        "year": "1399",
+        "quality": "کیفیت HD"
+      },
+      "logo": "https://static.cdn.asset.filimo.com/flmt/mov_logo_144197_790.png?width=400&quality=85&secret=Qj8XvB37P0UibXfs-pEHfw",
+      "cover": "https://static.cdn.asset.filimo.com/flmt/mov_cvr_144197_4914.jpg?width=1920&quality=90&secret=sVOFV4W3ZTGullyFD8N0Tw"
+    },
+    {
+      "id": "3",
+      "image": "https://static.cdn.asset.filimo.com/flmt/mov_145544_153457.jpg?width=165&quality=85&secret=ca2lkwGkZ5rLY-1LPHZcsA",
+      "title": "بی همه چیز",
+      "director": "محسن قرایی",
+      "imdb_score": "7.2",
+      "genres": [
+        { "id": "1", "genre": "درام" },
+        { "id": "2", "genre": "خانوادگی" }
+      ],
+      "description": "امیر مردی است که معتمد مردم یک روستا است و بخش مهمی از امور روستا بر عهده اوست. زن ثروتمندی از اهالی آنجا پس از سال ها به زادگاهش باز می گردد و به خاطر کینه ای که از امیر به دل دارد به مردم وعده می دهد اگر او را بکشند، پول زیادی نصیبشان خواهد شد. طولی نمی کشد که رفتار مردم با امیر عوض می شود...      ",
+      "more_data": {
+        "age": "بالای 15 سال",
+        "time": "یک ساعت و 59 دقیقه",
+        "country_producer": "محصول ایران",
+        "year": "1398",
+        "quality": "کیفیت HD"
+      },
+      "logo": "https://static.cdn.asset.filimo.com/flmt/mov_logo_145544_737.png?width=400&quality=85&secret=x6K1w5QCW8_zgcR2XEKh_g",
+      "cover": "https://static.cdn.asset.filimo.com/flmt/mov_cvr_filimo_hor_145544_229.jpg?width=1920&quality=80&secret=eumwCpe255bGm4EbIMUEOg"
+    },
+    {
+      "id": "4",
+      "image": "https://static.cdn.asset.filimo.com/flmt/mov_145138_152883.jpg?width=165&quality=85&secret=TV8OQYZ3fA_QJ3HIeUzT-A",
+      "title": "زنبور کارگر",
+      "director": "افشین صادقی",
+      "imdb_score": "4.2",
+      "genres": [
+        { "id": "1", "genre": "درام" },
+        { "id": "2", "genre": "جنایی" }
+      ],
+      "description": "سال ها پیش، بیوک همسرش را به خاطر خطای پزشک از دست داده و در نزاعی به قتل می رسد. اکنون دخترش به دنبال انتقام از قاتل اوست و تنها شاهد این اتفاق، نامزد قاتل است.      ",
+      "more_data": {
+        "age": "بالای 15 سال",
+        "time": "یک ساعت و 27 دقیقه",
+        "country_producer": "محصول ایران",
+        "year": "1398",
+        "quality": "کیفیت HD"
+      },
+      "logo": "https://static.cdn.asset.filimo.com/flmt/mov_logo_145138_778.png?width=400&quality=85&secret=Ixwv0NA6VtElwi7G5bpU1Q",
+      "cover": "https://static.cdn.asset.filimo.com/flmt/mov_cvr_filimo_hor_145138_894.jpg?width=1920&quality=80&secret=D_s_pB4poGSUoPgPJBCAHg"
+    },
+    {
+      "id": "5",
+      "image": "https://static.cdn.asset.filimo.com/flmt/mov_144888_152523.jpg?width=165&quality=85&secret=mYfXtrwli9h_6yxCzIzKFg",
+      "title": "کاپیتان من",
+      "director": "سیاوش صفاریان پور",
+      "imdb_score": "",
+      "genres": [{ "id": "1", "genre": "مستند" }],
+      "description": "«کاپیتان من»، فیلم مستند علمی با موضوع مغز انسان است که بهرام رادان به عنوان راوی آن در جستجوی اهمیت مغز، مخاطبان را با مباحثی همچون شکل گیری ساختار مغز در هزار روز اول زندگی، طرز کار حافظه و فرآیند به خاطر سپردن و یادآوری خاطرات آشنا می کند.      ",
+      "more_data": {
+        "age": "بالای 15 سال",
+        "time": "یک ساعت و 9 دقیقه",
+        "country_producer": "محصول ایران",
+        "year": "1402",
+        "quality": "کیفیت HD"
+      },
+      "logo": "https://static.cdn.asset.filimo.com/flmt/mov_logo_144888_841.png?width=400&quality=85&secret=Gc7T6AVdz9XHUjqI_rTEBg",
+      "cover": "https://static.cdn.asset.filimo.com/flmt/mov_cvr_filimo_hor_144888_627.jpg?width=1920&quality=80&secret=v6GYajPV_L1s-JTx5_YxPQ"
+    },
+
+    {
+      "id": "6",
+      "image": "https://static.cdn.asset.filimo.com/flmt/mov_144353_120639.jpg?width=165&quality=85&secret=Sg8bUv5jiOrp9hUDlJdKrQ",
+      "title": "منشی مخصوص من",
+      "director": "صالخ دلدم",
+      "imdb_score": "3.3",
+      "genres": [
+        { "id": "1", "genre": "کمدی" },
+        { "id": "2", "genre": "خانوادگی" }
+      ],
+      "description": "بزرگ زاده تاجری پا به سن گذاشته است که شب عید بهانه ای پیش می کشد تا همسرش تنها به مسافرت برود و عید را با هرکس که دوست دارد سپری کند. اما آمدن ناگهانی پسری جوان و ملاقاتش با منشی او همه چیز را بهم می ریزد و از شب عید تا سیزده به در بزرگ زاده را دچار دردسر می کند...      ",
+      "more_data": {
+        "age": "بالای 18 سال",
+        "time": "یک ساعت و 19 دقیقه",
+        "country_producer": "محصول ایران",
+        "year": "1394",
+        "quality": "کیفیت HD"
+      },
+      "logo": "https://static.cdn.asset.filimo.com/flmt/mov_logo_144353_503.png?width=400&quality=85&secret=OBENMt7eti6W9eyuSsJE8g",
+      "cover": "https://static.cdn.asset.filimo.com/flmt/mov_cvr_filimo_hor_144353_769.jpg?width=1920&quality=80&secret=XCSb-olSO--GT61sP18F5w"
+    }
+  ],
+
+  "How_to_work_section1": {
+    "image": [
+      {
+        "id": "1",
+        "link": "https://www.filimo.com/assets/web/ui/img-cN60l2HV7KQltmZRQCCIA/campaigns/nosub-v_new/device2.png"
+      },
+      {
+        "id": "2",
+        "link": "https://www.filimo.com/assets/web/ui/img-cN60l2HV7KQltmZRQCCIA/campaigns/nosub-v_new/deviceYaghi.png"
+      }
+    ],
+    "heading": {
+      "id": "1",
+      "heading": "تماشای فیلیمو با همه دستگاه‌ها",
+      "description": "می‌توانید فیلیمو را به صورت هم‌زمان روی 3 دستگاه مختلف مثل موبایل، تبلت، لپ‌تاپ، تلویزیون و... تماشا کنید."
+    },
+    "content": [
+      {
+        "id": "1",
+        "icon": "https://www.filimo.com/assets/web/ui/img-ugnSfCQdq1MdoMws3NbA/campaigns/nosub-v_new/laptop.png",
+        "title": "کامپیوتر و لپ تاپ",
+        "description": "windows PC - MacOS - Chorom OS"
+      },
+      {
+        "id": "2",
+        "icon": "https://www.filimo.com/assets/web/ui/img-ugnSfCQdq1MdoMws3NbA/campaigns/nosub-v_new/mobile.png",
+        "title": "موبایل و تبلت",
+        "description": "Android Phone & Tablets - Iphone and Ipad - Amazon Fire Tablets"
+      },
+      {
+        "id": "3",
+        "icon": "https://www.filimo.com/assets/web/ui/img-ugnSfCQdq1MdoMws3NbA/campaigns/nosub-v_new/game.png",
+        "title": "کنسول های بازی(Browser)",
+        "description": "Xbox Series S - Xbox Seris X - PS5 - PS4"
+      }
+    ]
+  },
+  "How_to_work_section2": {
+    "image": [
+      {
+        "id": "1",
+        "link": "https://www.filimo.com/assets/web/ui/img-cN60l2HV7KQltmZRQCCIA/campaigns/nosub-v_new/TVBG-yaghi.png"
+      },
+      {
+        "id": "2",
+        "link": "https://www.filimo.com/assets/web/ui/img-cN60l2HV7KQltmZRQCCIA/campaigns/nosub-v_new/TVBG.png"
+      }
+    ],
+    "heading": {
+      "id": "1",
+      "heading": "چطور با تلویزیون، فیلیمو تماشا کنم؟",
+      "description": "ما برای راحتی شما و تماشای فیلیمو روی تلویزیون‌های مختلف 6 روش را فراهم کردیم. هرکدام از این 6 روش یک ویدیو آموزشی دارند که می‌توانید از لینک زیر، آن‌ها را تماشا کنید و روشی که با تلویزیون شما سازگار است را انتخاب کنید. "
+    },
+    "content": [
+      {
+        "id": "1",
+        "icon": "https://www.filimo.com/assets/web/ui/img-ugnSfCQdq1MdoMws3NbA/campaigns/nosub-v_new/TV.png",
+        "title": "تلویزیون",
+        "description": "Amazon Fire TV - LG TVs - Chrome Cast - Apple TV - Android TV devices - Samsung"
+      },
+      {
+        "id": "2",
+        "icon": "https://www.filimo.com/assets/web/ui/img-ugnSfCQdq1MdoMws3NbA/campaigns/nosub-v_new/androidTV.png",
+        "title": "اندروید تی‌وی",
+        "description": "NVIDIA - amazon - xiaomi - minix - skystream - turewell - ematic - humax - matricom"
+      }
+    ]
+  },
+
+  "Child_Filimo": {
+    "image": "https://www.filimo.com/assets/web/ui/img-cN60l2HV7KQltmZRQCCIA/campaigns/nosub-v_new/bg-kids.png",
+    "heading": "دنیایی متنوع از فیلم و کارتون‌های کودکانه",
+    "description": "ساخت فیلیمو کودک این امکان را می‌دهد که با انتخاب سن فرزندتان، یک فضای امن برای تماشای کودک بسازید؛ یعنی محتوای مخصوص سن خودش را ببیند و به بقیه فیلم و سریال‌ها دسترسی نداشته‌باشد.",
+    "buttons": [
+      { "id": "1", "content": "فیلیمو کودک بساز" },
+      { "id": "2", "content": "تماشای فیلم کودک" }
+    ]
+  },
+  "onlline_cinema_title": [
+    { "id": "1", "content": "فیلم‌های روز سینمای ایران  " },
+    { "id": "2", "content": "۸ ساعت زمان برای مشاهده فیلم در هر کجا" },
+    { "id": "3", "content": "خرید یک بلیت برای تماشا همراه با همه خانواده  " }
+  ],
+  "onlline_cinema_cover": {
+    "id": "1",
+    "link": "https://www.filimo.com/assets/web/ui/img-cN60l2HV7KQltmZRQCCIA/campaigns/nosub-v_new/bg-cinama.png"
+  },
+  "comments_icons": [
+    {
+      "id": "1",
+      "link": "https://www.filimo.com/assets/web/ui/img-cN60l2HV7KQltmZRQCCIA/campaigns/big-screen_v2/1.png"
+    },
+    {
+      "id": "2",
+      "link": "https://www.filimo.com/assets/web/ui/img-cN60l2HV7KQltmZRQCCIA/campaigns/big-screen_v2/virgol.png"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "user": "سالار",
+      "comment": " همه نصب کنید. رایگان هم داره، با پول هم داره. همه ی فیلم های :کمدی، اکشن، درام،عاشقانه،ترسناک و کارتون توش موجود هست . پر از هیجان و شگفتی😎🥸🤓🤠👍🏻👍🏻👍🏻"
+    },
+    {
+      "id": "2",
+      "user": "نیکا کاوند",
+      "comment": "واقعا عالیه.😚 خیلی برنامه عالیه😻😻 من ۵ سال این برنانه رو دارم...🌹 درسته یکم اشتراکاش گرونه ولی هنوزم خوبه.💙❤ ولی اینترنتش نیمبهاست🌹🌹😻 ممنون از برنامه ی خوبتون🌹❤"
+    },
+    {
+      "id": "3",
+      "user": "fatemehfarahmandfar6",
+      "comment": "فیلیمو عالی من از فیلیمو رازی هستم❤❤😍🤩😘❤🍓"
+    },
+    {
+      "id": "4",
+      "user": "ستایش",
+      "comment": "عالیییبیبیییییییی پیشنهاد میکنم نصب کنید فیلم های رایگان هم داره پس نصب کنید 🤗🤗"
+    },
+    {
+      "id": "5",
+      "user": "احسان",
+      "comment": "محشره 👌 واقعا دمتون گرم ، خب چیزی که باید به گرونی اشتراک بگم اینه که گرونه اما خب با این همه دوبله ، زحمت ، ساخت فیلم و سریال های ویژه خب قیمتش چیزی نیست ولی خب دیگه چیزی نمیشه گفت "
+    },
+    {
+      "id": "6",
+      "user": "F.A",
+      "comment": "خیلی خوبه تازه فیلم های 2021 رو هم با دوبله داره "
+    },
+    {
+      "id": "7",
+      "user": "RAMTIN",
+      "comment": " عالیه خیلی فیلم و سریال های قشنگی داره "
+    },
+    {
+      "id": "8",
+      "user": "آوا",
+      "comment": " خیلی خوب بود من راحت فیِلمی را که دوست داشتمو دانلود میکردم وغیر از دانلود راحت میتونستم فیلموببینم درهرحال راضیم ازاین برنامه."
+    },
+    {
+      "id": "9",
+      "user": "محسن مرصاد",
+      "comment": " یعنی حرف نداره فقط کافیه اشتراک شو فعال کنی میتونی کل فیل و سریالدهارو راحت تماشا کنی"
+    },
+    {
+      "id": "10",
+      "user": "ابوالفضل خورسی",
+      "comment": " یعنی حرف نداره فقط کافیه اشتراک شو فعال کنی میتونی کل فیل و سریالدهارو راحت تماشا کنی"
+    },
+    {
+      "id": "11",
+      "user": "سایمان",
+      "comment": "این برنامه خیلی خوبه من داخل این فیلم نگاه می کنم کلی مامانم فیلم های بزرگسالان نگاه می‌کنه "
+    },
+    {
+      "id": "12",
+      "user": "Manidriver",
+      "comment": " فیلیمو راضیوم ازت😍😍"
+    },
+    {
+      "id": "13",
+      "user": "TahaDamghani",
+      "comment": "  عالی، می‌تونی هر فیلمی رو با دوبله و زیرنویس فارسی تماشا کنی. تازه فیلیمو کیفیت پخش آنلاین رو با سرعت اینترنت تنظیم می‌کنه تا بدون توقف فیلم ببینی. دسته‌بندی هم داره و قیمت اشتراکش نسبت به برنامه‌های مشابه خارجی خیلی ارزونتره و ساخت حساب کاربری هم رایگانه. پیشنهاد می‌کنم حتما این برنامه رو نصب کنید."
+    },
+    {
+      "id": "14",
+      "user": "aref",
+      "comment": " خیلی برنامه خوبی هست و خیلی سریال متنوع داره"
+    },
+    {
+      "id": "15",
+      "user": "mostafa",
+      "comment": " از وقتی فیلیمو رو نصب کردم دیگه تلوزیون نگاه نمیکنم"
+    }
+  ],
+  "FAQ": [
+    {
+      "id": "1",
+      "title": "آیا می‌توانم فیلم‌های موجود در فیلیمو را دانلود کنم؟    ",
+      "content": "بله، شما می‌توانید همه فیلم‌ و سریال‌های فیلیمو را داخل خود اپلیکیشن فیلیمو دانلود کنید و برای زمان‌هایی که اینترنت ندارید یا در سفر، هواپیما و قطار آ‌ن‌ها را تماشا کنید. برای دانلود هم از طریق رایانه و هم از طریق خود اپلیکیشن فیلیمو می‌توانید اقدام‌کنید. برای جزییات بیشتر می‌توانید فیلم‌های آموزشی مربوط به دانلود از طریق سایت و دانلود از طریق  اپلیکیشن را تماشا کنید. "
+    },
+    {
+      "id": "2",
+      "title": "آیا فیلیمو برای خارج از ایران در دسترس است؟    ",
+      "content": "خیر. درحال حاضر تماشای فیلیمو فقط در داخل کشور فعال است و امکان تماشا برای افراد خارج از کشور فعال نیست."
+    },
+    {
+      "id": "3",
+      "title": "آیا برای تماشای فیلم‌های اکران آنلاین، باید اشتراک بخرم؟    ",
+      "content": "تماشای فیلم‌های اکران آنلاین مانند تماشا در سینمای واقعی است؛ یعنی برای دیدن هر فیلم که در اکران آنلاین است باید بلیت تهیه کنید و به جای رفتن به سالن سینما، 8 ساعت فرصت دارید که آن فیلم را از داخل خانه تماشا کنید."
+    },
+    {
+      "id": "4",
+      "title": "از کجا می‌توانم نرم‌افزار اندروید یا iOS فیلیمو را دانلود کنم؟    ",
+      "content": "برای نصب نرم‌افزار اندرویدی فیلیمو می‌توانید ازطریق کافه بازار یا مایکت اقدام به دانلود کنید. یا می‌توانید روی گزینه روبرو بزنید و به‌طور مستقیم فایل نرم‌افزار را دریافت کنید. (دانلود مستقیم نرم‌افزار اندروید) برای دانلود نرم‌افزار iOS فیلیمو نیز کافیست روی گزینه روبرو بزنید و به‌طور مستقیم فایل نرم‌افزار را دریافت کنید. (دانلود مستقیم نرم‌افزار iOS)"
+    }
+  ],
+
+  "advertise": [
+    { "id": "1", "content": "هزاران فیلم و سریال خارجی (دوبله و زیرنویس)" },
+    { "id": "2", "content": "هزاران انیمیشن و کارتون برای کودکان" },
+    { "id": "3", "content": "پشتیبانی 24 ساعته برای راهنمایی شما" }
+  ],
+  "footer": [
+    { "id": "1", "title": "تماشا با تلویزیون ها", "items": [] },
+    { "id": "2", "title": "اپلیکیشن ها", "items": [] },
+    { "id": "3", "title": "تماس و پشتیبانی", "items": [] },
+    { "id": "4", "title": "فروشگاه", "items": [] },
+    {
+      "id": "5",
+      "title": "سایر لینک ها",
+      "items": [
+        { "id": "1", "item": "قوانین" },
+        { "id": "2", "item": "به ما بپیوندید" },
+        { "id": "3", "item": "تبلیغات در فیلیمو" },
+        { "id": "4", "item": "لوگو" },
+        { "id": "5", "item": "دانلود فیلم و سریال" }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "شبکه های اجتماعی",
+      "items": [
+        { "id": "1", "item": "آپارات" },
+        { "id": "2", "item": "تلگرام" },
+        { "id": "3", "item": "توئیتر" },
+        { "id": "4", "item": "اینستاگرام" }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "لینک های مفید",
+      "items": [
+        { "id": "1", "item": "تماس و پشتیبانی" },
+        { "id": "2", "item": "فروشگاه" },
+        { "id": "3", "item": "قوانین" },
+        { "id": "4", "item": "به ما بپیوندید" },
+        { "id": "5", "item": "تبلیغات در فیلیمو" },
+        { "id": "6", "item": "لوگو" },
+        { "id": "7", "item": "دانلود فیلم و سریال" }
+      ]
+    }
+  ]
+}

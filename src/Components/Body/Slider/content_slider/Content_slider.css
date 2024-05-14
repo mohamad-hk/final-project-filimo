@@ -1,0 +1,48 @@
+#content_slider {
+  background: radial-gradient(
+    130% 44% at 41% 40%,
+    rgba(0, 0, 0, 0) 0,
+    #151515 100%
+  );
+  height: 700px;
+  bottom: 00%;
+  & .row:nth-of-type(1) {
+    position: relative;
+    top: 42%;
+  }
+  & .row:nth-of-type(2) {
+    position: relative;
+    top: 40%;
+  }
+  & .row:nth-of-type(3) {
+    position: relative;
+    top: 45%;
+    & p {
+      color: #6f99aa;
+    }
+    & div:nth-of-type(1),
+    & div:nth-of-type(2),
+    & div:nth-of-type(3) {
+      & p {
+        font-size: 14px;
+        color: #ffffffbf;
+      }
+    }
+  }
+  & .row:nth-of-type(4) {
+    position: relative;
+    top: 50%;
+    & p {
+      font-size: 10px;
+      color: #6f99aa;
+    }
+  }
+  .button_buy {
+    background-color: #1cb561;
+    color: white;
+  }
+  .button_buy:hover {
+    background-color: #17924e;
+    transition: all 0.5s;
+  }
+}

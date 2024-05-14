@@ -1,0 +1,24 @@
+.accordion-item{
+    background-color: #161616!important;
+}
+.accordion-item:first-of-type {
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+}
+.accordion-item:not(:first-of-type) {
+  border-top: 1px solid #33353d;
+}
+.Accordion_item_custom {
+    
+  border: 1px solid #33353d;
+  border-radius: 20px;
+  & button {
+    color: white;
+    background-color: #161616 !important;
+    border: 0;
+    border-radius: 20px;
+  }
+}
+.accordion-body {
+    background-color: #161616 !important;
+}

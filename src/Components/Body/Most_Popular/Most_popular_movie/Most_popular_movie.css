@@ -1,0 +1,60 @@
+.swiper_Most_Popular_movie {
+  width: 75%;
+  height: 100%;
+}
+
+.swiper_slide_Most_Popular_movie {
+  text-align: center;
+  font-size: 18px;
+  background: #151515;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 165px;
+  height: 280px;
+  opacity: 0.65;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#Most_Popular_item_movie {
+  height: 450px;
+  background-repeat: no-repeat;
+}
+#more_data {
+  font-size: 10px;
+}
+#logo_item_movie {
+  width: 200px;
+  left: 10%;
+}
+#genres_movie {
+  & span {
+    font-size: 10px;
+    background-color: #282828;
+  }
+
+  & img {
+    width: 20px;
+    height: 15px;
+  }
+}
+#imdb_score {
+  & span {
+    background:none ;
+  }
+  color: #fdc13c;
+  background-color: rgba(255,196,60,.12);
+}
+.button_buy {
+  background-color: #1cb561;
+  color: white;
+}
+.button_buy:hover {
+  background-color: #17924e;
+  transition: all 0.5s;
+}

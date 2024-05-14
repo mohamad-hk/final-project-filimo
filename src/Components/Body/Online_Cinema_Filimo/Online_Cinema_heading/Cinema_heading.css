@@ -1,0 +1,6 @@
+#Cinema_heading {
+  & p {
+    font-size: 13px;
+    color: #d8d8d8;
+  }
+}

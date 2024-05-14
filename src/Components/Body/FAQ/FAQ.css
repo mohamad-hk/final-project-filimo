@@ -1,0 +1,30 @@
+#FAQ {
+  background-color: #131313;
+  .Accordion_item_custom {
+    border-radius: 15px;
+    & button {
+      color: #f4843f;
+      font-weight: bold;
+    }
+  }
+  .accordion-item > .accordion-header .accordion-button {
+    border-radius: 15px;
+  }
+  .accordion-button:not(.collapsed) {
+    box-shadow: none;
+  }
+  .accordion-body {
+    border-radius: 15px;
+    font-size: 13px;
+  }
+  .accordion-button::after {
+    content: "\F4FE" !important ;
+    font-family: "bootstrap-icons";
+    margin-right: 0;
+    position: absolute;
+    left: 10px;
+  }
+  .accordion-button {
+    padding-left: 5px;
+  }
+}

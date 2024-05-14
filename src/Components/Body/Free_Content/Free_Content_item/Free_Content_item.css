@@ -1,0 +1,7 @@
+#content_free_item img{
+    width: 165px;
+    height: 220px;
+}
+#content_free_item:hover{
+    cursor: pointer;
+}

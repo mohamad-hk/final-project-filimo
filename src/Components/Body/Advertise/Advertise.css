@@ -1,0 +1,11 @@
+#advertise {
+  background-color: #121614;
+  .button_buy {
+    background-color: #1cb561;
+    color: white;
+  }
+  .button_buy:hover {
+    background-color: #17924e;
+    transition: all 0.5s;
+  }
+}

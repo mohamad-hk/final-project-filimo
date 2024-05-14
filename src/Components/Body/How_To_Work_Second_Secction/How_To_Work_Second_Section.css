@@ -1,0 +1,57 @@
+#section2 {
+  background-color: #0d0d0d;
+  & button {
+    background-color: #606060;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  & button:hover {
+    background-color: #737373;
+    transition: all 0.5s;
+  }
+}
+
+@media all and (min-width: 0px) and (max-width: 575px) {
+  #section2 {
+    & button {
+      width: 100%;
+    }
+  }
+}
+
+@media all and (min-width: 575px) and (max-width: 767px) {
+  #section2 {
+    & button {
+      width: 100%;
+    }
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  #content {
+    position: absolute;
+    top: 0%;
+  }
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  #content {
+    position: absolute;
+    top: 0%;
+  }
+}
+@media all and (min-width: 1200px) and (max-width: 1399px) {
+  #content {
+    width: 75%;
+    position: absolute;
+    top: 0%;
+    right: 10%;
+  }
+}
+@media all and (min-width: 1400px) {
+  #content {
+    width: 75%;
+    position: absolute;
+    top: 0%;
+    right: 10%;
+  }
+}
