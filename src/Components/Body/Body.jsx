@@ -19,14 +19,18 @@ const Body = () => {
     Slider_section3,
     Most_Popular_series,
     Most_Popular_Movies,
+    imdb_logo,
     section1,
     section2,
+    free_content_tag,
     Free_content_data,
     Child_Content,
     Online_Cinema_title,
     Online_Cinema,
     FAQ_data,
+    Advertise_logo,
     Advertise_Content,
+    Comment_icon,
     Comment,
   ] = useContext(MyContext_body);
 
@@ -38,19 +42,23 @@ const Body = () => {
         Slider_section2={Slider_section2}
         Slider_section3={Slider_section3}
       />
-      <Most_Popular series={Most_Popular_series} movies={Most_Popular_Movies} />
+      <Most_Popular
+        series={Most_Popular_series}
+        movies={Most_Popular_Movies}
+        imdb_logo={imdb_logo}
+      />
       <How_To_Work_First_Section section1={section1} />
       <How_To_Work_Second_Section section2={section2} />
 
-      <Free_Content content={Free_content_data} />
+      <Free_Content content={Free_content_data} tag={free_content_tag.link} />
       <Child_Filimo Child_Content={Child_Content} />
       <Online_Cinema_Filimo
         online_cinema_content={Online_Cinema}
         Cinema_title={Online_Cinema_title}
       />
-      <Comments Comment={Comment} />
+      <Comments icon={Comment_icon} Comment={Comment} />
       <FAQ FAQ={FAQ_data} />
-      <Advertise content={Advertise_Content} />
+      <Advertise logo={Advertise_logo} content={Advertise_Content} />
     </>
   );
 };

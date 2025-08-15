@@ -1,13 +1,13 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Autoplay, Navigation } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 import "swiper/css/navigation";
 
 import "./Comments.css";
 import Comment_item from "./Comment/Comment_item";
 import Comments_heading from "./Comments_heading/Comments_heading";
 
-const Comments = ({ Comment }) => {
+const Comments = ({ icon, Comment }) => {
   return (
     <>
       <div
@@ -32,13 +32,8 @@ const Comments = ({ Comment }) => {
           }}
           slidesPerView={3}
           spaceBetween={35}
-          loop={true}
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-          }}
           navigation
-          modules={[Navigation, Autoplay]}
+          modules={[Navigation]}
           className=" swiper_comments pt-5 px-3 "
         >
           {Comment?.map((elem) => {
@@ -46,6 +41,7 @@ const Comments = ({ Comment }) => {
               <SwiperSlide className=" p-1 p-md-3 rounded-4 swiper-slide_comments mt-3">
                 <Comment_item
                   key={elem.id}
+                  icons={icon}
                   user={elem.user}
                   Comment={elem.comment}
                 />

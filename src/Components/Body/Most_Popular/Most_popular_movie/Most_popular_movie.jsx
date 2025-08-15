@@ -18,24 +18,7 @@ const Most_popular_movie = ({ movies, imdb_logo }) => {
   return (
     <>
       <Swiper
-        breakpoints={{
-          300: {
-            slidesPerView: 3,
-            scrollbar: {
-              draggable: true,
-            },
-          },
-          768: {
-            slidesPerView: 4,
-            scrollbar: {
-              draggable: true,
-            },
-          },
-          1200: {
-            slidesPerView: 6,
-          },
-        }}
-        scrollbar={{ width: "100%", height: "100%" }}
+        slidesPerView={6}
         spaceBetween={20}
         modules={[]}
         className="mySwiper swiper_Most_Popular mb-3"
@@ -57,7 +40,7 @@ const Most_popular_movie = ({ movies, imdb_logo }) => {
       </Swiper>
       {dataReceived && (
         <Most_popular_movie_item data={select_slider} imdb_logo={imdb_logo} />
-      )}
+      )}{" "}
     </>
   );
 };

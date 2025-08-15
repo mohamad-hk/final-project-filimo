@@ -36,7 +36,7 @@ const Manage_Free_content = () => {
                 <>
                   <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 me-1 mx-lg-2 my-2 d-flex flex-column justify-content-center align-items-center border border1 border-primary rounded-4 position-relative p-3 ">
                     <img
-                      className="img-fluid rounded-3 image_custom"
+                      className="img-fluid rounded-3"
                       src={elem.link}
                       alt=""
                     />

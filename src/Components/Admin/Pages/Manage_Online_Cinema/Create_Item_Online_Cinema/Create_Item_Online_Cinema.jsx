@@ -3,7 +3,7 @@ import Navbar_Admin from "../../../Navbar/Navbar_Admin";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
-import "./Create_Item_Online_Cinema.css"
+
 const Create_Item_Online_Cinema = () => {
   const check_url = /^(http|https):\/\/[^ "]+$/;
   const [image, Set_image] = useState("");
@@ -50,125 +50,102 @@ const Create_Item_Online_Cinema = () => {
           <Navbar_Admin />
           <div className="col-10">
             <div className="row">
-              <div className="col-10 col-md-10 col-lg-6 mx-auto mt-4 form_Online_Cinema">
-                <div className="">
-                  <form
-                    className="form-control bg-info"
-                    onSubmit={(e) => {
-                      submithandler(e);
-                    }}
-                  >
-                    <div className=" d-flex flex-column gap-5 mt-4">
-                      <label
-                        className="text-white position-relative "
-                        htmlFor=""
-                      >
-                        نام فیلم
-                        <input
-                          className="me-2"
-                          type="text"
-                          onChange={(e) => Set_title(e.target.value)}
-                        />
-                        {title.length < 5 ? (
-                          <span className="text-danger fw-bold  position-absolute top-100">
-                            نام فیلم باید حداقل 5 کاراکتر باشد
-                          </span>
-                        ) : null}
-                      </label>
+              <div className="col-6 mx-auto mt-4">
+                <form
+                  className="form-control bg-info"
+                  onSubmit={(e) => {
+                    submithandler(e);
+                  }}
+                >
+                  <div className=" d-flex flex-column gap-4 mt-4">
+                    <label className="text-white " htmlFor="">
+                      نام فیلم
+                      <input
+                        className="me-2"
+                        type="text"
+                        onChange={(e) => Set_title(e.target.value)}
+                      />
+                      {title.length < 5 ? (
+                        <p>نام فیلم باید حداقل 5 کاراکتر باشد</p>
+                      ) : null}
+                    </label>
 
-                      <label
-                        className="text-white  position-relative"
-                        htmlFor=""
+                    <label className="text-white " htmlFor="">
+                      کارگردان
+                      <input
+                        className="me-2"
+                        type="text"
+                        onChange={(e) => Set_director(e.target.value)}
+                      />
+                      {director.length < 5 ? (
+                        <p>نام فیلم باید حداقل 5 کاراکتر باشد</p>
+                      ) : null}
+                    </label>
+                    <label className="text-white " htmlFor="">
+                      عکس فیلم
+                      <textarea
+                        className="me-2 text-start"
+                        type="text"
+                        rows={4}
+                        cols={40}
+                        onChange={(e) => Set_image(e.target.value)}
+                      />
+                      {check_url.test(image) ? null : (
+                        <p>آدرس وارد شده اشتباه است</p>
+                      )}
+                    </label>
+                    <label className="text-white " htmlFor="">
+                      ژانر اول
+                      <input type="text" value={genre} />
+                      <select
+                        className="me-2"
+                        name="genres"
+                        onChange={(e) => {
+                          Set_genre(e.target.value);
+                        }}
                       >
-                        کارگردان
-                        <input
-                          className="me-2"
-                          type="text"
-                          onChange={(e) => Set_director(e.target.value)}
-                        />
-                        {director.length < 5 ? (
-                          <span className="text-danger fw-bold  position-absolute top-100">
-                            نام فیلم باید حداقل 5 کاراکتر باشد
-                          </span>
-                        ) : null}
-                      </label>
-                      <label
-                        className="text-white d-flex flex-row align-items-center position-relative"
-                        htmlFor=""
+                        <option value="درام">درام</option>
+                        <option value="کمدی">کمدی</option>
+                        <option value="عاشقانه">عاشقانه</option>
+                        <option value="خانوادگی">خانوادگی</option>
+                        <option value="موزیکال">موزیکال</option>
+                      </select>
+                    </label>
+                    <label className="text-white " htmlFor="">
+                      ژانر دوم
+                      <input type="text" value={genre2} />
+                      <select
+                        className="me-2"
+                        name="genres"
+                        onChange={(e) => {
+                          Set_genre2(e.target.value);
+                        }}
                       >
-                        عکس فیلم
-                        <textarea
-                          className="me-2 text-start"
-                          type="text"
-                          rows={4}
-                          cols={40}
-                          onChange={(e) => Set_image(e.target.value)}
-                        />
-                        {check_url.test(image) ? null : (
-                          <span className="text-danger fw-bold position-absolute top-100 me-2">
-                            آدرس وارد شده اشتباه است
-                          </span>
-                        )}
-                      </label>
-                      <label
-                        className="text-white position-relative"
-                        htmlFor=""
-                      >
-                        ژانر اول
-                        <input type="text" className="me-2" value={genre} />
-                        <select
-                          className="me-2"
-                          name="genres"
-                          onChange={(e) => {
-                            Set_genre(e.target.value);
-                          }}
-                        >
-                          <option value="درام">درام</option>
-                          <option value="کمدی">کمدی</option>
-                          <option value="عاشقانه">عاشقانه</option>
-                          <option value="خانوادگی">خانوادگی</option>
-                          <option value="موزیکال">موزیکال</option>
-                        </select>
-                      </label>
-                      <label
-                        className="text-white position-relative"
-                        htmlFor=""
-                      >
-                        ژانر دوم
-                        <input type="text" className="me-2" value={genre2} />
-                        <select
-                          className="me-2"
-                          name="genres"
-                          onChange={(e) => {
-                            Set_genre2(e.target.value);
-                          }}
-                        >
-                          <option value="درام">درام</option>
-                          <option value="کمدی">کمدی</option>
-                          <option value="عاشقانه">عاشقانه</option>
-                          <option value="خانوادگی">خانوادگی</option>
-                          <option value="موزیکال">موزیکال</option>
-                        </select>
-                      </label>
-                    </div>
-                    <button
-                      className="btn btn-success mt-4 px-4"
-                      onClick={() => {
-                        create_item();
-                      }}
-                      disabled={
-                        title.length > 5 &&
-                        director.length > 5 &&
-                        genre.length > 0 &&
-                        check_url.test(image)
-                          ? null
-                          : "disabled"
-                      }
-                    >
-                      ایجاد
-                    </button>
-                  </form>
-                </div>
+                        <option value="درام">درام</option>
+                        <option value="کمدی">کمدی</option>
+                        <option value="عاشقانه">عاشقانه</option>
+                        <option value="خانوادگی">خانوادگی</option>
+                        <option value="موزیکال">موزیکال</option>
+                      </select>
+                    </label>
+                  </div>
+                  <button
+                    className="btn btn-success mt-4 px-4"
+                    onClick={() => {
+                      create_item();
+                    }}
+                    disabled={
+                      title.length > 5 &&
+                      director.length > 5 &&
+                      genre.length > 0 &&
+                      check_url.test(image)
+                        ? null
+                        : "disabled"
+                    }
+                  >
+                    ایجاد
+                  </button>
+                </form>
               </div>
             </div>
           </div>

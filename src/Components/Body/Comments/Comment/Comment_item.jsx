@@ -1,6 +1,4 @@
-import virgool from "../../../../Images/virgol.webp";
-import profile_icon from "../../../../Images/profile_comment.webp";
-const Comment_item = ({ user, Comment }) => {
+const Comment_item = ({ icons, user, Comment }) => {
   return (
     <>
       <div className="d-flex flex-column w-100">
@@ -9,11 +7,11 @@ const Comment_item = ({ user, Comment }) => {
           id="comment_content"
         >
           <div className="ms-2" id="first_icon">
-            <img className="img-fluid" src={profile_icon} alt="" />
+            <img className="img-fluid" src={icons[0].link} alt="" />
           </div>
           <h5 className="text-end ms-auto mt-2">{user}</h5>
           <div className="align-self-start" id="second_icon">
-            <img className="img-fluid" src={virgool} alt="" />
+            <img className="img-fluid" src={icons[1].link} alt="" />
           </div>
         </div>
         <p className="text-white fw-bold">{Comment}</p>

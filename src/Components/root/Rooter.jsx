@@ -8,6 +8,7 @@ import store from "../Body/Most_Popular/store";
 
 const Rooter = () => {
   const [Menu, SetMenu] = useState([]);
+  const [Logo, SetLogo] = useState("");
   const [Customer, SetCustomer] = useState([]);
   const [Slider, SetSlider] = useState([]);
   const [Slider_section1, Set_slider_section1] = useState([]);
@@ -15,14 +16,18 @@ const Rooter = () => {
   const [Slider_section3, Set_slider_section3] = useState([]);
   const [Most_Popular_series, Set_Most_Popular_series] = useState([]);
   const [Most_Popular_Movies, Set_Most_Popular_Movies] = useState([]);
+  const [imdb_logo, Set_imdb_logo] = useState([]);
   const [section1, Set_section1] = useState([]);
   const [section2, Set_section2] = useState([]);
+  const [free_content_tag, Set_Free_content_tag] = useState({});
   const [Free_content_data, Set_Free_content] = useState([]);
   const [Child_Content, Set_Child_Filimo] = useState(null);
   const [Online_Cinema_title, Set_online_cinema_title] = useState([]);
   const [Online_Cinema, Set_online_cinema] = useState([]);
   const [FAQ_data, set_FAQ] = useState([]);
+  const [Advertise_logo, Set_Advertise_logo] = useState({});
   const [Advertise_Content, Set_Advertise] = useState([]);
+  const [Comment_icon, Set_comment_icon] = useState([]);
   const [Comment, Set_comments] = useState([]);
   const [Footer_data, Set_Footer_Data] = useState([]);
   const [dataReceived, setDataReceived] = useState(false);
@@ -32,14 +37,12 @@ const Rooter = () => {
       const res = await axios.get(
         "https://mohamad-hk.github.io/final-project-react-db/db.json"
       );
-      const res_mock_Api_online_cinema = await axios.get(
+      const res_mock_Api = await axios.get(
         "https://662e624da7dda1fa378ccdf2.mockapi.io/online_cinema"
-      );
-      const res_mock_Api_free_content = await axios.get(
-        "https://662e624da7dda1fa378ccdf2.mockapi.io/free-content"
       );
       const result = res.data;
       SetMenu(result.header);
+      SetLogo(result.logo.link);
       SetCustomer(result.Customer);
       SetSlider(result.sliders);
       Set_slider_section1(result.sliders_section1);
@@ -47,13 +50,17 @@ const Rooter = () => {
       Set_slider_section3(result.sliders_section3);
       Set_Most_Popular_series(result.Most_popular_series);
       Set_Most_Popular_Movies(result.Most_popular_movies);
+      Set_imdb_logo(result.Most_popular_mobies_imdb_logo);
       Set_section1(result.How_to_work_section1);
       Set_section2(result.How_to_work_section2);
-      Set_Free_content(res_mock_Api_free_content.data);
+      Set_Free_content_tag(result.free_contents_tag);
+      Set_Free_content(result.free_contents);
       Set_Child_Filimo(result.Child_Filimo);
       Set_online_cinema_title(result.onlline_cinema_title);
-      Set_online_cinema(res_mock_Api_online_cinema.data);
+      Set_online_cinema(res_mock_Api.data);
+      Set_Advertise_logo(result.advertise_logo);
       Set_Advertise(result.advertise);
+      Set_comment_icon(result.comments_icons);
       Set_comments(result.comments);
       Set_Footer_Data(result.footer);
       set_FAQ(result.FAQ);
@@ -70,7 +77,9 @@ const Rooter = () => {
 
   return (
     <>
-      <MyContext.Provider value={{ Menu: Menu, Customer: Customer }}>
+      <MyContext.Provider
+        value={{ Menu: Menu, Logo: Logo, Customer: Customer }}
+      >
         <Header />
       </MyContext.Provider>
       <Provider store={store}>
@@ -82,14 +91,18 @@ const Rooter = () => {
             Slider_section3,
             Most_Popular_series,
             Most_Popular_Movies,
+            imdb_logo,
             section1,
             section2,
+            free_content_tag,
             Free_content_data,
             Child_Content,
             Online_Cinema_title,
             Online_Cinema,
             FAQ_data,
+            Advertise_logo,
             Advertise_Content,
+            Comment_icon,
             Comment,
           ]}
         >

@@ -1,23 +1,11 @@
-import { useEffect, useRef } from "react";
 import "./Online_Cinema.css";
 import Online_Cinema_Content from "./Online_Cinema_Content/Online_Cinema_Content";
 import Online_cinema_Image from "./Online_Cinema_Image/Online_cinema_Image";
 import Online_Cinema_heading from "./Online_Cinema_heading/Online_Cinema_heading";
-import cinema_cover from "../../../Images/cover-cinama.webp"
-const Online_Cinema_Filimo = ({
-  online_cinema_content,
-  Cinema_title,
-}) => {
-  const background_ref = useRef();
-
-  useEffect(() => {
-    if (online_cinema_content && cinema_cover) {
-      background_ref.current.style.backgroundImage = `url(${cinema_cover})`;
-    }
-  }, [background_ref]);
+const Online_Cinema_Filimo = ({ online_cinema_content, Cinema_title }) => {
   return (
     <>
-      <div ref={background_ref} className="container-fluid" id="Online_Cinema">
+      <div className="container-fluid" id="Online_Cinema">
         <div className="row">
           <div className="col-12 col-md-10 mx-auto ">
             <Online_Cinema_heading Cinema_title={Cinema_title} />

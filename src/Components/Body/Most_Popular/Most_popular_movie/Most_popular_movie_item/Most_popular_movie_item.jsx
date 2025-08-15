@@ -3,8 +3,7 @@ import { useEffect } from "react";
 import "../Most_popular_movie.css";
 import Shadow_movie from "./Shadow_movie/Shadow_movie";
 import Shadow_movie2 from "./Shadow_movie/Shadow_movie2";
-import imdb from "../../../../../Images/icon-imdb.webp";
-const Most_popular_movie_item = ({ data }) => {
+const Most_popular_movie_item = ({ data, imdb_logo }) => {
   const Element_movie = useRef(null);
   useEffect(() => {
     if (data && data.cover) {
@@ -24,17 +23,11 @@ const Most_popular_movie_item = ({ data }) => {
           <div className="d-flex flex-row gap-3 my-3" id="genres_movie">
             {data.imdb_score ? (
               <>
-                <div
-                  className="d-flex flex-row justify-content-center align-items-center rounded-5 px-2 "
-                  id="imdb_score"
-                >
-                  <img
-                    className="img-fluid"
-                    src={imdb}
-                    alt=""
-                    style={{ backgroundColor: "#151515" }}
-                  />
-                  <span className="px-2 rounded-4">{data.imdb_score}</span>
+                <div className="d-flex flex-row justify-content-center align-items-center rounded-5 px-2 "  id="imdb_score">
+                    <img className="img-fluid" src={imdb_logo.link} alt="" />
+                  <span className="px-2 rounded-4">
+                    {data.imdb_score}
+                  </span>
                 </div>
               </>
             ) : null}
@@ -46,7 +39,7 @@ const Most_popular_movie_item = ({ data }) => {
             })}
           </div>
           <p className="text-white fw-bold ">{data.description}</p>
-          <button className=" btn btn-success button_buy my-2">خرید اشتراک و تماشا</button>
+          <button className=" btn btn-success my-2">خرید اشتراک و تماشا</button>
 
           <div
             className="d-flex flex-row text-white gap-1 fw-bold"

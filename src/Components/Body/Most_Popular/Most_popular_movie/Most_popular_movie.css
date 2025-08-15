@@ -50,11 +50,3 @@
   color: #fdc13c;
   background-color: rgba(255,196,60,.12);
 }
-.button_buy {
-  background-color: #1cb561;
-  color: white;
-}
-.button_buy:hover {
-  background-color: #17924e;
-  transition: all 0.5s;
-}

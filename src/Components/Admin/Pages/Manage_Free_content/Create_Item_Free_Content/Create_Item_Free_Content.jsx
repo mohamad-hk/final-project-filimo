@@ -1,4 +1,3 @@
-import "./Create_Item_Free_Content.css";
 import { useState } from "react";
 import Navbar_Admin from "../../../Navbar/Navbar_Admin";
 import axios from "axios";
@@ -39,65 +38,54 @@ const Create_Item_Free_Content = () => {
           <Navbar_Admin />
           <div className="col-10">
             <div className="row">
-              <div className="col-10 col-md-10 col-lg-6 mx-auto mt-4 ">
-                <div className="form_Free_Content">
-                  <form
-                    className="form-control bg-info "
-                    onSubmit={(e) => {
-                      submithandler(e);
+              <div className="col-6 mx-auto mt-4">
+                <form
+                  className="form-control bg-info"
+                  onSubmit={(e) => {
+                    submithandler(e);
+                  }}
+                >
+                  <div className=" d-flex flex-column gap-4 mt-4">
+                    <label className="text-white " htmlFor="">
+                      نام فیلم
+                      <input
+                        className="me-2"
+                        type="text"
+                        onChange={(e) => Set_title(e.target.value)}
+                      />
+                      {title.length < 5 ? (
+                        <p>نام فیلم باید حداقل 5 کاراکتر باشد</p>
+                      ) : null}
+                    </label>
+
+                    <label className="text-white " htmlFor="">
+                      عکس فیلم
+                      <textarea
+                        className="me-2 text-start"
+                        type="text"
+                        rows={4}
+                        cols={40}
+                        onChange={(e) => Set_link(e.target.value)}
+                      />
+                      {check_url.test(link) ? null : (
+                        <p>آدرس وارد شده اشتباه است</p>
+                      )}
+                    </label>
+                  </div>
+                  <button
+                    className="btn btn-success mt-4 px-4"
+                    onClick={() => {
+                      create_item();
                     }}
+                    disabled={
+                      title.length > 5 && check_url.test(link)
+                        ? null
+                        : "disabled"
+                    }
                   >
-                    <div className=" d-flex flex-column gap-5 mt-4">
-                      <label
-                        className="text-white position-relative "
-                        htmlFor=""
-                      >
-                        نام فیلم
-                        <input
-                          className="me-4"
-                          type="text"
-                          onChange={(e) => Set_title(e.target.value)}
-                        />
-                        {title.length < 5 ? (
-                          <span className="text-danger fw-bold  position-absolute top-100">
-                            نام فیلم باید حداقل 5 کاراکتر باشد
-                          </span>
-                        ) : null}
-                      </label>
-                      <label
-                        className="d-flex flex-row  align-items-center text-white  position-relative "
-                        htmlFor=""
-                      >
-                        عکس فیلم
-                        <textarea
-                          className="me-2 text-start"
-                          type="text"
-                          rows={4}
-                          cols={40}
-                          onChange={(e) => Set_link(e.target.value)}
-                        />
-                        {check_url.test(link) ? null : (
-                          <span className="text-danger fw-bold position-absolute top-100">
-                            آدرس وارد شده اشتباه است
-                          </span>
-                        )}
-                      </label>
-                    </div>
-                    <button
-                      className="btn btn-success mt-5 px-4"
-                      onClick={() => {
-                        create_item();
-                      }}
-                      disabled={
-                        title.length > 5 && check_url.test(link)
-                          ? null
-                          : "disabled"
-                      }
-                    >
-                      ایجاد
-                    </button>
-                  </form>
-                </div>
+                    ایجاد
+                  </button>
+                </form>
               </div>
             </div>
           </div>

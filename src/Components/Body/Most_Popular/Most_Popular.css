@@ -33,8 +33,9 @@
     color: white;
     font-size: 14px;
   }
+
 }
-.clicked {
+.clicked{
   background-color: #ffffff1f;
 }
 @media all and (min-width: 0px) and (max-width: 575px) {
@@ -43,9 +44,6 @@
     height: 100%;
     overflow-x: scroll;
   }
-  #Heading_Most_Popular {
-    width: 100%;
-  }
 }
 @media all and (min-width: 576px) and (max-width: 768px) {
   .swiper_Most_Popular {
@@ -53,27 +51,6 @@
     height: 100%;
     overflow-x: scroll;
   }
-  #Heading_Most_Popular {
-    width: 100%;
-  }
 }
 @media all and (min-width: 769px) and (max-width: 991px) {
-  #Heading_Most_Popular {
-    width: 75%;
-  }
-}
-@media all and (min-width: 991px) and (max-width: 1199px) {
-  #Heading_Most_Popular {
-    width: 75%;
-  }
-}
-@media all and (min-width: 1200px) and (max-width: 1399px) {
-  #Heading_Most_Popular {
-    width: 75%;
-  }
-}
-@media all and (min-width: 1400px)  {
-  #Heading_Most_Popular {
-    width: 75%;
-  }
 }

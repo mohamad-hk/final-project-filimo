@@ -30,7 +30,7 @@ const Manage_Online_Cinema = () => {
           <div className="col-10 col-sm-10 mx-auto">
             <div className="row p-sm-2">
               <div
-                className="col-12 col-sm-6 col-md-6 col-xl-4 d-flex flex-row  p-2 border border1 border-primary rounded-4 position-relative mb-lg-2"
+                className="col-12 col-sm-6 col-md-6 col-xl-4 d-flex flex-row  p-2 border border1 border-primary rounded-4 position-relative"
                 id="add_online_cinema"
                 onClick={create_page}
               >
@@ -39,12 +39,12 @@ const Manage_Online_Cinema = () => {
               {data_online_cinema?.map((elem) => {
                 return (
                   <div
-                    className="col-12 col-sm-6 col-md-6 col-xl-4 d-flex flex-row  p-2 border border1 border-primary rounded-4 position-relative mb-lg-2"
+                    className="col-12 col-sm-6 col-md-6 col-xl-4 d-flex flex-row  p-2 border border1 border-primary rounded-4 position-relative"
                     key={elem.id}
                     id="card_online_cinema"
                   >
                     <img
-                      className="img-fluid rounded-3 image_custom"
+                      className="img-fluid rounded-3"
                       src={elem.image}
                       alt=""
                     />

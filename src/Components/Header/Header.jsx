@@ -2,10 +2,8 @@ import { useContext } from "react";
 import { MyContext } from "../root/Rooter";
 import "./Header.css";
 import { Link } from "react-router-dom";
-import filimo_logo from "../../Images/filimo-logo.svg";
-
 const Header = () => {
-  const { Menu, Customer } = useContext(MyContext);
+  const { Menu, Logo, Customer } = useContext(MyContext);
 
   return (
     <>
@@ -16,11 +14,7 @@ const Header = () => {
               <div className="col-4 col-md-6 ">
                 <div className="d-flex flex-row justify-content-start align-items-center">
                   <div className=" bg-black me-md-5" id="logo">
-                    <img
-                      className="img-fluid"
-                      src={filimo_logo}
-                      alt="not found"
-                    />
+                    <img className="img-fluid" src={Logo} alt="not found" />
                   </div>
                   <div>
                     <ul className="d-none d-lg-flex flex-row justify-content-center align-items-center  mt-3 gap-5  ">

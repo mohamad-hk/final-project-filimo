@@ -1,7 +1,7 @@
 import { useLocation, useNavigate } from "react-router-dom";
 import Navbar_Admin from "../../../Navbar/Navbar_Admin";
 import { useEffect, useState } from "react";
-import "./Edit_Item_Free_Content.css";
+
 const Edit_Item_Free_Content = () => {
   const check_url = /^(http|https):\/\/[^ "]+$/;
   const [get_data, Set_get_data] = useState({});
@@ -58,67 +58,55 @@ const Edit_Item_Free_Content = () => {
           <Navbar_Admin />
           <div className="col-10">
             <div className="row">
-              <div className="col-10 col-md-10 col-lg-6 mx-auto mt-4 ">
-                <div className="form_Free_Content">
-                  <form
-                    className="form-control bg-info "
-                    onSubmit={(e) => {
-                      submithandler(e);
+              <div className="col-6 mx-auto mt-4">
+                <form
+                  className="form-control bg-info"
+                  onSubmit={(e) => {
+                    submithandler(e);
+                  }}
+                >
+                  <div className=" d-flex flex-column gap-4 mt-4">
+                    <label className="text-white " htmlFor="">
+                      نام فیلم
+                      <input
+                        className="me-2"
+                        type="text"
+                        value={new_title}
+                        onChange={(e) => Set_new_title(e.target.value)}
+                      />
+                      {new_title.length < 5 ? (
+                        <p>نام فیلم باید حداقل 5 کاراکتر باشد</p>
+                      ) : null}
+                    </label>
+                    <label className="text-white " htmlFor="">
+                      عکس فیلم
+                      <textarea
+                        className="me-2"
+                        type="text"
+                        rows={4}
+                        cols={40}
+                        value={new_link}
+                        onChange={(e) => Set_new_link(e.target.value)}
+                      />
+                      {check_url.test(new_link) ? null : (
+                        <p>آدرس وارد شده اشتباه است</p>
+                      )}
+                    </label>
+                  </div>
+                  <button
+                    className="btn btn-success mt-4 px-4"
+                    onClick={() => {
+                      update_item();
                     }}
+                    disabled={
+                      new_title.length > 5 && check_url.test(new_link)
+                        ? null
+                        : "disabled"
+                    }
                   >
-                    <div className=" d-flex flex-column gap-5 mt-4">
-                      <label
-                        className="text-white position-relative "
-                        htmlFor=""
-                      >
-                        نام فیلم
-                        <input
-                          className="me-4"
-                          type="text"
-                          value={new_title}
-                          onChange={(e) => Set_new_title(e.target.value)}
-                        />
-                        {new_title.length < 5 ? (
-                          <span className="text-danger fw-bold  position-absolute top-100">
-                            نام فیلم باید حداقل 5 کاراکتر باشد
-                          </span>
-                        ) : null}
-                      </label>
-                      <label
-                        className="text-white position-relative"
-                        htmlFor=""
-                      >
-                        عکس فیلم
-                        <textarea
-                          className="me-2"
-                          type="text"
-                          rows={4}
-                          cols={40}
-                          value={new_link}
-                          onChange={(e) => Set_new_link(e.target.value)}
-                        />
-                        {check_url.test(new_link) ? null : (
-                          <span className="text-danger fw-bold  position-absolute top-100">
-                            آدرس وارد شده اشتباه است
-                          </span>
-                        )}
-                      </label>
-                    </div>
-                    <button
-                      className="btn btn-success mt-5 px-4"
-                      onClick={() => {
-                        update_item();
-                      }}
-                      disabled={
-                        new_title.length > 5 && check_url.test(new_link)
-                          ? null
-                          : "disabled"
-                      }
-                    >
-                      ویرایش
-                    </button>
-                  </form>
-                </div>
+                    ویرایش
+                  </button>
+                </form>
               </div>
             </div>
           </div>

@@ -35,7 +35,7 @@ const Most_Popular = ({ imdb_logo }) => {
   const { item_movies } = useSelector((state) => state.movies_rendered);
   return (
     <div className="pb-5" id="Most_Popular">
-      <div className="mb-4 d-flex mx-md-auto" id="Heading_Most_Popular">
+      <div className="mb-4 d-flex w-75 mx-md-auto">
         <h3 className="text-white fw-bold ms-2">محبوب ترین های فیلیمو</h3>
         <div
           className=" d-flex flex-row  justify-content-center align-items-center rounded-5 mt-2"
