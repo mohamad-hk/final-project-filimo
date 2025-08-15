@@ -14,7 +14,7 @@ const Header = () => {
               <div className="col-4 col-md-6 ">
                 <div className="d-flex flex-row justify-content-start align-items-center">
                   <div className=" bg-black me-md-5" id="logo">
-                    <img className="img-fluid" src="/images/filimo-logo.svg" alt="not found" />
+                    <img className="img-fluid" src="/filimo-logo.svg" alt="not found" />
                   </div>
                   <div>
                     <ul className="d-none d-lg-flex flex-row justify-content-center align-items-center  mt-3 gap-5  ">
@@ -69,4 +69,5 @@ const Header = () => {
 };
 
 export default Header;
+
 
